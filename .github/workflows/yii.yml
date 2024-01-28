@@ -17,7 +17,7 @@ jobs:
             - name: Setup Environment
               uses: shivammathur/setup-php@v2
               with:
-                php-version: '7.4'
+                php-version: '8.3.2'
 
             - name: Install Packages
               run: composer install --no-progress --prefer-dist --optimize-autoloader --no-interaction
